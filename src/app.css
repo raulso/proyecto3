@@ -1,0 +1,81 @@
+body{
+  margin: 0px;
+}
+#map{
+  width: 100%;
+  height: 500px;
+  border: 1px solid #364268;
+}
+.contentMap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background:#313552;
+ }
+.mapTitle{
+  font-weight: 600;
+  font-size: 20px;
+  margin:  10px 0px;
+  color:white;
+}
+
+h1.title {
+    text-align: center;
+    color: red;
+    padding: 3em;
+  }
+  .contenedor-graf-todo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+.navbar1{
+    display: grid;
+    grid-template-columns:  100px 1fr ;
+    padding: 10px 10px;
+    gap: 10px;
+    background: #691B32;
+    color: white;
+    text-align: center;
+}
+
+img{
+ width: 100px;
+}
+.indicators{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  background:#313552;
+  color: white;
+  }
+  .tableValues{
+    border: 1px solid #364268;
+  }
+  .colorsCode{
+    border: 1px solid #364268;
+
+  }
+
+  #idCase{
+    margin: 0px 20px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #313552;
+  }
+
+@media(max-width:575px){
+  .contenedor-graf-todo{
+      grid-template-columns: 1fr;
+      background-color: #691B32;
+      padding: 20px 20px;
+      margin: 0;
+    }
+ .pie-pagina{
+      grid-template-columns: 1fr;
+  }
+  
+
+}
